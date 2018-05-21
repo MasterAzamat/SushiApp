@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/bottom_sheet_behavior"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="55dp"
+    android:orientation="vertical"
+    android:background="#d2d2d2"
+    android:id="@+id/bottom_sheet">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="bottom_sheet"
+        android:textSize="25dp"
+        android:layout_margin="20dp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="tttttt"
+        android:layout_margin="10dp"/>
+
+
+</LinearLayout>

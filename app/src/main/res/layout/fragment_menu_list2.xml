@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context="com.example.azaat.sushiapp.MenuList1">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/menu_toolbar2"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:text="name"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:gravity="center"
+                />
+            <LinearLayout
+                android:id="@+id/basket_toolbar"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true">
+                <TextView
+                    android:id="@+id/toolbar_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="1400"
+                    android:textSize="17dp"
+                    android:textColor="#ffffff"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="kzt"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="17dp"
+                    android:textColor="#ffffff"/>
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/basket"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/menu_list2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+
+</LinearLayout>

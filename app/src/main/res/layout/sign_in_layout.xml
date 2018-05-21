@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:background="#ffffff">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="АВТОРИЗАЦИЯ"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:maxLength="12"
+        android:maxLines="1"
+        android:id="@+id/dialog_edit"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Номер телефона"
+        android:inputType="phone"/>
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2">
+        <Button
+            android:id="@+id/dialog_cancel"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:layout_height="wrap_content"
+            android:text="Отмена"/>
+        <Button
+            android:id="@+id/dialog_next"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:layout_height="wrap_content"
+            android:text="далее"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
